@@ -199,14 +199,6 @@ animation: textnew 3s 1;
    width: 20%;
 }
 
-.gallery2{
-    margin-left: 24%;
-}
-
-.gallery3{
-     margin-left: 48%;
-}
-
 
 
 .achievement{
@@ -273,6 +265,33 @@ transition-delay: 0.4s;
 padding: 10px;
     }
 
+.galleryimage img{
+height: 30%;
+width: 30%;
+}
+
+#slider {
+overflow: hidden;
+}
+
+#slider figure {
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 20s slider infinite; 
+}
+
+#slider figure img{
+
+    height: 300px;
+    width: 377px;
+    margin: 36px 31px height: 270px;
+    width: 7%;
+    border: 39px solid white;
+    float: left;
+}
+
 @keyframes text{
     0%{ width: 0ch; }
     100%{width: 19ch;}
@@ -290,4 +309,38 @@ padding: 10px;
         letter-spacing: 8px;
         margin-bottom: -40px;
     }
+
 }
+
+@keyframes slider{
+    0%{
+        left:0;
+    }
+
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}   
