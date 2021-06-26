@@ -270,6 +270,7 @@ visibility: visible;
 opacity: 1;
 margin-top: -50px;
 transition-delay: 0.4s;
+padding: 10px;
     }
 
 @keyframes text{
