@@ -38,7 +38,7 @@
 
 
 .bg{
-    background: rgba(0, 0, 0, 0.7) url('background1.jpg');
+    background: rgba(0, 0, 0, 0.7) url('img/background1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -90,6 +90,10 @@
     font-size: 20px;
 }
 
+.btn:hover{
+    background-color: #ffffff6e;
+}
+
 .smallbtn{
     padding: 6px 10px;
     vertical-align: middle;
@@ -101,6 +105,10 @@
     height: 100vh;
 }
 
+.hometxt{
+    padding: 4%;
+    letter-spacing: 1px;
+}
 .homebox{
     height: 100vh;
     display: flex;
@@ -122,7 +130,7 @@
 
 
 .text-big{
-    font-size: 41px;
+    font-size: 44px;
 }
 
 .text-small{
@@ -136,7 +144,7 @@
 
 .photo img{
     width: 70%; 
-    border: 2px solid white;
+    /*border: 2px solid white;*/
     border-radius: 150px;
     display: block;
     margin: auto;
@@ -144,27 +152,28 @@
 
 
 .about{ 
+    margin-top: -44px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
-    margin: auto;
+    /* margin: auto; */
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
+    margin-left: 111px;
 }
 
 
 .para{
+
     padding: 0px 65px;
 }
 
 .tag{
-    padding: 16px 0;
+    padding: 18px 56px;
+    margin: 36px;
 }
 
-.subtag{
-    font-family: sans-serif;
-}
 
 .thumbnail img{
     width: 250px;
@@ -174,7 +183,7 @@
 
 .footertext{
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
    font-family: 'Ubuntu', sans-serif; 
    display: flex;
    justify-content: center;
@@ -292,6 +301,72 @@ animation: 20s slider infinite;
     float: left;
 }
 
+.contactbox{
+    /*border: 2px solid red;*/
+    width: 29%;
+    width: 1;
+    padding: 1%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 25px;
+    color: #695b5b;
+    background-color: #0000000f;
+    /* padding: 7% 10%; */
+
+
+    }
+
+.contacttxt{
+
+    padding-left: 5%;
+    font-size: 33px;
+    color: black;
+
+}
+
+.contact-main{
+
+    margin: auto;
+    padding-left: 7%;
+    margin-bottom: 24px;
+
+}
+
+.reach{
+    /*border: 2px solid red;*/
+    margin-top: -35%;
+    margin-bottom: 11%;
+    margin-left: 47%;
+}
+
+.reachbtn{
+        padding-top: 7%;
+       padding-bottom: 9%;
+}
+
+.btndark{
+    box-shadow: 3px 3px #000000d4;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 19px 183px;
+    /*border: 2px solid black;*/
+    padding: 14px 29px;
+    background: forestgreen;
+    width: 35%;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.btndark:hover{
+    background-color: #228b22a6;
+}
+.txtbg{
+    padding: 10%;
+    margin-bottom: -3%;
+     font-family: 'Ubuntu', sans-serif; 
+    font-size: 31px;
+}
 @keyframes text{
     0%{ width: 0ch; }
     100%{width: 19ch;}
